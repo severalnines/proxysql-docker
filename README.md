@@ -2,7 +2,7 @@
 
 ## Supported Tags ##
 
-* [1.4, 1.4.8, latest (1.4.8/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/1.4.8/Dockerfile)
+* [1.4, 1.4.8, latest (1.4.8/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/1.4/Dockerfile)
 
 
 ## Overview ##
@@ -159,6 +159,11 @@ mysql_variables=
         monitor_username="proxysql"
         monitor_password="proxysqlpassword"
 }
+
+mysql_replication_hostgroups =
+(
+	{ writer_hostgroup=10 , reader_hostgroup=20 , comment="host groups" }
+)
 
 mysql_servers =
 (
