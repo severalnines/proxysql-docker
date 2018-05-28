@@ -1,7 +1,7 @@
 FROM debian:stretch
 MAINTAINER Ashraf Sharif <ashraf@severalnines.com>
 
-ENV VERSION 1.4.9
+ENV VERSION 1.4.8
 
 RUN apt-get update && \
     apt-get install -y wget mysql-client && \
