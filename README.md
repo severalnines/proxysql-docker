@@ -39,10 +39,9 @@ For Kubernetes, check out the following blog posts for explanation and examples:
 * [MySQL on Docker: Running ProxySQL as Kubernetes Service](https://severalnines.com/blog/mysql-docker-running-proxysql-kubernetes-service)
 
 Here are some examples of ProxySQL configuration:
-- [Galera (ProxySQL 2.x) with web stats port 6080](#supported-tags)
-- [Galera (ProxySQL 1.x)](#galera-proxysql-1.x)
+- [Galera (ProxySQL 2.x) with web stats port 6080](#galera-proxysql-2x-with-web-stats-port-6080)
+- [Galera (ProxySQL 1.x)](#galera-proxysql-1x)
 - [MySQL Replication](#mysql-replication)
-
 
 You can also find some examples of proxysql.cnf in the official repository: https://github.com/sysown/proxysql/blob/master/doc/configuration.md
 
