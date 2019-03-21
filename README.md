@@ -43,6 +43,8 @@ Here are some examples of ProxySQL configuration:
 - [Galera (ProxySQL 1.x)](#galera-proxysql-1x)
 - [MySQL Replication](#mysql-replication)
 
+For greater detail and explanation, check out [How to Run and Configure ProxySQL 2.0 for MySQL Galera Cluster on Docker](https://severalnines.com/blog/how-run-and-configure-proxysql-20-mysql-galera-cluster-docker).
+
 You can also find some examples of proxysql.cnf in the official repository: https://github.com/sysown/proxysql/blob/master/doc/configuration.md
 
 ### Galera (ProxySQL 2.x) with web stats port 6080 ###
