@@ -37,6 +37,7 @@ For a list of available Docker image version, please refer to [Supported Tags](#
 For Kubernetes, check out the following blog posts for explanation and examples:
 * [MySQL on Docker: Running ProxySQL as a Helper Container on Kubernetes](https://severalnines.com/blog/mysql-docker-running-proxysql-helper-container-kubernetes)
 * [MySQL on Docker: Running ProxySQL as Kubernetes Service](https://severalnines.com/blog/mysql-docker-running-proxysql-kubernetes-service)
+* [MySQL on Docker: ProxySQL Native Clustering with Kubernetes](https://severalnines.com/database-blog/mysql-docker-proxysql-native-clustering-kubernetes)
 
 Here are some examples of ProxySQL configuration:
 - [Galera (ProxySQL 2.x) with web stats port 6080](#galera-proxysql-2x-with-web-stats-port-6080)
