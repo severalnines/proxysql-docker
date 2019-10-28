@@ -10,7 +10,7 @@ set -e
 ## - Monitor /etc/proxysql.cnf for any changes and reload ProxySQL automatically
 
 # If command has arguments, prepend proxysql
-if [ "${1:0:1}" = '-' ]; then
+if [ "${1:0:1}" == '-' ]; then
 	CMDARG="$@"
 fi
 
