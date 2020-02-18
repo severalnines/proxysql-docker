@@ -1,7 +1,7 @@
 FROM debian:stretch
 MAINTAINER Ashraf Sharif <ashraf@severalnines.com>
 
-ENV VERSION 2.0.8
+ENV VERSION 2.0.9
 
 RUN apt-get update && \
     apt-get install -y wget mysql-client inotify-tools procps && \

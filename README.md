@@ -2,7 +2,7 @@
 
 ## Supported Tags ##
 
-* [2.0, 2.0.8, latest (2.0/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/2.0/Dockerfile)
+* [2.0, 2.0.9, latest (2.0/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/2.0/Dockerfile)
 * [1.4, 1.4.16 (1.4/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/1.4/Dockerfile)
 
 
@@ -97,7 +97,7 @@ mysql_galera_hostgroups =
         reader_hostgroup=30
         offline_hostgroup=9999
         max_writers=1
-        writer_is_also_reader=1
+        writer_is_also_reader=2
         max_transactions_behind=30
         active=1
     }
