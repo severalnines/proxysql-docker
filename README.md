@@ -2,7 +2,7 @@
 
 ## Supported Tags ##
 
-* [2, 2.2, 2.2.0, latest (2.2/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.1/Dockerfile)
+* [2, 2.2, 2.2.1, latest (2.2/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.2/Dockerfile)
 * [2.1, 2.1.1, (2.1/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.1/Dockerfile)
 * [2.0, 2.0.18 (2.0/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/2.0/Dockerfile)
 * [1, 1.4, 1.4.16 (1.4/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/1.4/Dockerfile)
