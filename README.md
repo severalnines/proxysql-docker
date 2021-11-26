@@ -2,7 +2,8 @@
 
 ## Supported Tags ##
 
-* [2, 2.2, 2.2.2, latest (2.2/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.2/Dockerfile)
+* [2, 2.3, 2.3.2, latest (2.3/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.3/Dockerfile)
+* [2.2, 2.2.2, latest (2.2/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.2/Dockerfile)
 * [2.1, 2.1.1, (2.1/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.1/Dockerfile)
 * [2.0, 2.0.18 (2.0/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/2.0/Dockerfile)
 * [1, 1.4, 1.4.16 (1.4/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/1.4/Dockerfile)
@@ -29,7 +30,7 @@ $ docker run -d \
 --publish 6080:6080 \
 --restart=unless-stopped \
 -v /root/proxysql/proxysql.cnf:/etc/proxysql.cnf \
-severalnines/proxysql:2.0
+severalnines/proxysql
 ```
 
 For a list of available Docker image version, please refer to [Supported Tags](#supported-tags) section.
