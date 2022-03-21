@@ -14,4 +14,4 @@ VOLUME /var/lib/proxysql
 EXPOSE 6032 6033 6080
 
 COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["sh","/entrypoint.sh"]
