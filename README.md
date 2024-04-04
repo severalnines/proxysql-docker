@@ -3,9 +3,9 @@
 ## Supported Tags ##
 
 * [2, 2.5, 2.5.3, latest (2.5/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.5/Dockerfile)
-* [2, 2.4, 2.4.8, latest (2.4/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.4/Dockerfile)
-* [2, 2.3, 2.3.2, latest (2.3/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.3/Dockerfile)
-* [2.2, 2.2.2, latest (2.2/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.2/Dockerfile)
+* [2, 2.4, 2.4.8 (2.4/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.4/Dockerfile)
+* [2, 2.3, 2.3.2 (2.3/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.3/Dockerfile)
+* [2.2, 2.2.2 (2.2/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.2/Dockerfile)
 * [2.1, 2.1.1, (2.1/Dockerfile)](//github.com/severalnines/proxysql-docker/blob/master/2.1/Dockerfile)
 * [2.0, 2.0.18 (2.0/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/2.0/Dockerfile)
 * [1, 1.4, 1.4.16 (1.4/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/1.4/Dockerfile)
@@ -17,7 +17,7 @@ ProxySQL is a high-performance SQL proxy. Details at [ProxySQL](http://www.proxy
 
 ## Image Description ##
 
-This image is maintained by Severalnines and will be updated regularly on best-effort basis. The image is based on Debian 9 (Stretch) and consists of:
+This image is maintained by Severalnines and will be updated regularly on best-effort basis. The image is based on Debian 11 (Bullseye) and consists of:
 * mysql client
 * ProxySQL package for Debian 9
 
