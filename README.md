@@ -19,7 +19,7 @@ ProxySQL is a high-performance SQL proxy. Details at [ProxySQL](http://www.proxy
 
 This image is maintained by Severalnines and will be updated regularly on best-effort basis. The image is based on Debian 11 (Bullseye) and consists of:
 * mysql/mariadb client
-* ProxySQL package for Debian 9
+* ProxySQL package for Debian 11
 
 ## Run ##
 
